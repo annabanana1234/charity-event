@@ -1,5 +1,5 @@
 body {
-  background-color: #dddddd;
+  background-color: #CCCCC9;
 }
 
 div.container {
@@ -19,39 +19,73 @@ div.container {
 }
 
 header {
-  background-color: #99ffff;
-  grid-area: header;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Krona One', sans-serif;
+  margin-bottom: 10px;
+  font:#CCCCC9;
+
+}
+img{
+  margin-top: 10px;
+  max-width: 100%;
 }
 
-main {
+  iframe {
+    margin-left: 100px;
+  }
 
+main {
+  font-family: 'Noto Sans', sans-serif;
 }
 
 section {
     min-height: 300px;
 }
 
+
 section#about {
-  background-color: #9999ff;
+  background-color: #383838;
   grid-area: about;
+  margin: 20px;
+  line-height: 2;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
 }
 
 section#event {
-  background-color: #99ff99;
   grid-area: event;
+  margin: 20px;
+  line-height: 2;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  background-color:#BB131A;
 }
 
+
 section#signup {
-  background-color: #ff9999;
+  background-color:#CCCCC9;
+
   grid-area: signup;
+  margin: 10px;
+  font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+h1{
+  text-align: Center
 }
 
 footer {
   background-color: #ffff99;
   grid-area: footer;
 }
+img{
+max-width: 100%;
+}
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   div.container {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:

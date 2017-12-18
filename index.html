@@ -2,9 +2,12 @@
 
 <html>
 <head>
+
   <title>Simple Grid Layout</title>
   <link href="main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Krona+One|Rubik+Mono+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -12,23 +15,70 @@
   <div class="container">
 
     <header>
-      This is the header area
-    </header>
+     <b>  Greenville's Special Olympics Fun Run 2018 </b>
+    <iframe src="https://free.timeanddate.com/countdown/i60viq1k/n800/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fs130/szw320/szh135/iso2018-01-27T09:00:00/bls2/brs2/pa2" allowTransparency="true" frameborder="0" width="155" height="43"></iframe>
+    <br> </header>
+    <img src="medal.jpg" alt="Kid Running">
 
     <section id="about">
-      This is where I put info about the charity.
+  <font color=#CCCCC9>  The Special Olympics is a global movement of people creating a new world of inclusion and community, where every single person is accepted and welcomed, regardless of ability or disability. We are helping to make the world a better, healthier and more joyful place -- one athlete, one volunteer, one family member at a time.</font>
     </section>
 
     <section id="event">
-      This is where I put info about the event.
+    <font color=#CCCCC9>  The 5k and 1 Mile Fun Run will occur on Saturday, January 27th, 2018. The event will kickoff in Downtown Greenville where all the runners will gather for the pre-run party! Tons of music to get everyone warmed up. BOTH races will start at approximately 9:00 am. Sign ups are below and the cost is $30 which includes a race day-tshirt. Children or Adults who participate in the Special Olympics will meet at 8:30 for a group picture to kickoff the event.</font>
+<br>
+
     </section>
 
     <section id="signup">
-      This is where I put a signup form.
+  <border><b><h1> Sign Up Here! </h1> </b> </border>
+      <link href="main.css" rel="stylesheet">
+      <form action="thanks.html" method="post">
+
+      <fieldset>
+      <ul><b> <legend> Runner Information </legend> </b> </ul>
+        <br>Name:<br>
+        <input type="text" name="firstname"><br>
+        <br>Address:
+        <input type="text" name="address">
+        <br> State:
+        <input type="text" name="state" maxlength="2">
+        <br> Zip :
+        <input type="text" name="zip code"><br>
+      </fieldset>
+
+      <fieldset>
+      <ul><b><legend> Tshirt size</legend></b></ul>
+        <p> Size: <select name="Size"> </p>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="Xtra Large">Xtra Large</option>
+        </select>
+      <br>  Quantity: (Please Limit to one shirt per Runner)
+        <input type="text" name="firstname" size="3"> <br>
+      </fieldset>
+
+
+      <fieldset>
+        <ul><b><legend> Payment Information</legend></b></ul>
+        <p> Card Type: <input type="radio" name="Card Type" value="Visa" checked> Visa
+         <input type="radio" name="Card Type" value="Master Card"> Master Card
+          <input type="radio" name="Card Type" value="Discover"> Discover <br>
+          <br>Credit Card Number:
+          <input type="text" name="Credit Card Number"> <br>
+        </fieldset>
+
+
+       <br>
+        <input type="submit" value="Submit">
+  </form>
+
     </section>
 
     <footer>
       This is the footer area
+
     </footer>
 
   </div>
